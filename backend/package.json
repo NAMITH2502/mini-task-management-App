@@ -1,0 +1,26 @@
+{
+  "name": "todoist",
+  "version": "2.0.0",
+  "description": "Build a mini Task Management App",
+  "keywords": [
+    "express",
+    "mongodb",
+    "jwt"
+  ],
+  "license": "ISC",
+  "author": "namithp",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0",
+    "nodemon": "^3.1.10"
+  }
+}
