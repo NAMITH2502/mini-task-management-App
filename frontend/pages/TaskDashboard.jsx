@@ -111,14 +111,14 @@ const TaskDashboard = () => {
           <div className="flex space-x-2">
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white font-bold py-2 px-4 rounded-md"
+              className="w-full bg-blue-600 text-white font-bold py-2 px-4 rounded-md cursor-pointer"
             >
               Update Task
             </button>
             <button
               type="button"
               onClick={cancelEdit}
-              className="w-full bg-gray-400 text-white font-bold py-2 px-4 rounded-md"
+              className="w-full bg-gray-400 text-white font-bold py-2 px-4 rounded-md cursor-pointer"
             >
               Cancel
             </button>

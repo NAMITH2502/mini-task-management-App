@@ -32,13 +32,13 @@ const TaskCard = ({ task, onDelete, onToggleStatus, onEdit }) => {
         </button>
         <button
           onClick={onEdit}
-          className="px-4 py-2 bg-red-500 text-white rounded hover:bg-yellow-600"
+          className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"
         >
           Edit
         </button>
         <button
           onClick={onDelete}
-          className="px-4 py-2  bg-black text-white rounded hover:bg-red-600"
+          className="px-4 py-2  bg-black text-white rounded"
         >
           Delete
         </button>
